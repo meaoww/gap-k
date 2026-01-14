@@ -30,11 +30,14 @@ huggingface-cli login
 - MIMIR [iamgroot42/mimir](https://huggingface.co/datasets/iamgroot42/mimir)
 
 ## 🤖 Models
+We conduct WikiMIA experiments on a diverse set of large language models:
 - Mamba: [state-spaces/mamba-1.4b-hf](https://huggingface.co/state-spaces/mamba-1.4b-hf)
 - Pythia: [EleutherAI/pythia-6.9b](https://huggingface.co/EleutherAI/pythia-6.9b), [EleutherAI/pythia-12b](https://huggingface.co/EleutherAI/pythia-12b)
 - LLaMA: [huggyllama/llama-13b](https://huggingface.co/huggyllama/llama-13b), [huggyllama/llama-65b](https://huggingface.co/huggyllama/llama-65b)
 
 Note: LLaMA-65B is evaluated using INT8 inference.
+
+For MIMIR experiments, we use Pythia [160M](https://huggingface.co/EleutherAI/pythia-160m), [1.4B](https://huggingface.co/EleutherAI/pythia-1.4b), [2.8B](https://huggingface.co/EleutherAI/pythia-2.8b), [6.9B](https://huggingface.co/EleutherAI/pythia-6.9b), and [12B](https://huggingface.co/EleutherAI/pythia-12b).
 
 ## 🚀 Running
 We provide shell scripts for running all experiments:
