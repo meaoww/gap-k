@@ -42,13 +42,13 @@ For MIMIR experiments, we use Pythia [160M](https://huggingface.co/EleutherAI/py
 ## 🚀 Running
 We provide shell scripts for running all experiments:
 - `wikimia.sh`  
-  Loss, Zlib, Min-K%, Min-K%++, Gap-K% on WikiMIA
+  Evaluates Loss, Zlib, Min-K%, Min-K%++, Gap-K% on WikiMIA.
 
 - `wikimia_neighbor.sh`  
-  Neighbor attack on WikiMIA
+  Evaluates Neighbor on WikiMIA.
 
 - `mimir.sh`  
-  Loss, Zlib, Min-K%, Min-K%++, Gap-K% on MIMIR
+  Evaluates Loss, Zlib, Min-K%, Min-K%++, Gap-K% on MIMIR.
 
 Results are saved to:
 ```text
