@@ -33,7 +33,7 @@ huggingface-cli login
 - Pythia: [EleutherAI/pythia-6.9b](https://huggingface.co/EleutherAI/pythia-6.9b), [EleutherAI/pythia-12b](https://huggingface.co/EleutherAI/pythia-12b)
 - LLaMA: [huggyllama/llama-13b](https://huggingface.co/huggyllama/llama-13b), [huggyllama/llama-65b](https://huggingface.co/huggyllama/llama-65b)
 
-Note: **LLaMA-65B is evaluated using INT8 inference.**
+Note: LLaMA-65B is evaluated using INT8 inference.
 
 ## 🚀 Running
 We provide shell scripts for running all experiments:
@@ -45,6 +45,7 @@ We provide shell scripts for running all experiments:
 
 - `mimir.sh`  
   Loss, Zlib, Min-K%, Min-K%++, Gap-K% on MIMIR
+
 Results are saved to:
 ```text
 results/
