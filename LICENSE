@@ -1,21 +1,53 @@
-MIT License
+# Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data
 
-Copyright (c) 2026 Minseo Kwak
+## 🔍 Overview
+This repository provides the official implementation of **Gap-K%**, a novel and efficient
+reference-free Membership Inference Attack (MIA) for detecting pretraining data in
+large language models (LLMs).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+For experiments on the Neighbor for the MIMIR benchmark, we use the implementation provided here:  
+👉 https://github.com/zjysteven/mimir
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## ⚙️ Environment
+- Python 3.10
+- PyTorch 2.7.1
+- CUDA 12.6
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## 🔐 Hugging Face Access
+Please log in to Hugging Face before running the scripts:
+```bash
+huggingface-cli login
+```
+
+## 📁 Dataset
+All data splits are hosted on huggingface and will be automatically loaded when running scripts.
+- WikiMIA original: [🤗swj0419/WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA). 
+- WikiMIA paraphrased: [🤗zjysteven/WikiMIA_paraphrased_perturbed](https://huggingface.co/datasets/zjysteven/WikiMIA_paraphrased_perturbed).
+- MIMIR [🤗iamgroot42/mimir](https://huggingface.co/datasets/iamgroot42/mimir)
+
+## 🤖 Models
+- Mamba: [state-spaces/mamba-1.4b-hf](https://huggingface.co/state-spaces/mamba-1.4b-hf)
+- Pythia: [EleutherAI/pythia-6.9b](https://huggingface.co/EleutherAI/pythia-6.9b), [EleutherAI/pythia-12b](https://huggingface.co/EleutherAI/pythia-12b)
+- LLaMA: [huggyllama/llama-13b](https://huggingface.co/huggyllama/llama-13b), [huggyllama/llama-65b](https://huggingface.co/huggyllama/llama-65b)
+Note: **LLaMA-65B is evaluated using INT8 inference.**
+
+## 🚀 Running
+We provide shell scripts for running all experiments:
+- `wikimia.sh`  
+  Loss, Zlib, Min-K%, Min-K%++, Gap-K% on WikiMIA
+
+- `wikimia_neighbor.sh`  
+  Neighbor attack on WikiMIA
+
+- `mimir.sh`  
+  Loss, Zlib, Min-K%, Min-K%++, Gap-K% on MIMIR
+Results are saved to:
+```text
+results/
+```
+## 🙏Acknowledgement
+This implementation is based on the official codebase of [Min-K%++](https://github.com/zjysteven/mink-plus-plus).
