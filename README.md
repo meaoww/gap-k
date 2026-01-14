@@ -1,9 +1,6 @@
 # Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data
 
 ## Overview
-
-![teaser figure](images/teaser_w_results.png)
-
 We propose a new Membership Inference Attack method named **Gap-K** for detecting pre-training data of LLMs, which achieves SOTA results among reference-free methods. This repo contains the implementation of our method (along with all the baselines) on the [WikiMIA benchmark](https://huggingface.co/datasets/swj0419/WikiMIA). For experiments on the [MIMIR benchmark](https://github.com/iamgroot42/mimir) Neighbor, we use [here](https://github.com/zjysteven/mimir).
 
 
