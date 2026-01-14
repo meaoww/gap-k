@@ -9,11 +9,12 @@ For experiments on the Neighbor for the MIMIR benchmark, we use the implementati
 👉 https://github.com/zjysteven/mimir
 
 ## ⚙️ Environment
+Our experiments are conducted under the following environment:
 - Python 3.10
 - PyTorch 2.7.1
 - CUDA 12.6
 
-Install dependencies:
+After setting up PyTorch, install the remaining dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -24,9 +25,9 @@ huggingface-cli login
 ```
 
 ## 📁 Dataset
-- WikiMIA original: [🤗swj0419/WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA). 
-- WikiMIA paraphrased: [🤗zjysteven/WikiMIA_paraphrased_perturbed](https://huggingface.co/datasets/zjysteven/WikiMIA_paraphrased_perturbed).
-- MIMIR [🤗iamgroot42/mimir](https://huggingface.co/datasets/iamgroot42/mimir)
+- WikiMIA original: [swj0419/WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA). 
+- WikiMIA paraphrased: [zjysteven/WikiMIA_paraphrased_perturbed](https://huggingface.co/datasets/zjysteven/WikiMIA_paraphrased_perturbed).
+- MIMIR [iamgroot42/mimir](https://huggingface.co/datasets/iamgroot42/mimir)
 
 ## 🤖 Models
 - Mamba: [state-spaces/mamba-1.4b-hf](https://huggingface.co/state-spaces/mamba-1.4b-hf)
