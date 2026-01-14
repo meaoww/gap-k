@@ -25,8 +25,9 @@ huggingface-cli login
 ```
 
 ## 📁 Dataset
-- WikiMIA original: [swj0419/WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA). 
-- WikiMIA paraphrased: [zjysteven/WikiMIA_paraphrased_perturbed](https://huggingface.co/datasets/zjysteven/WikiMIA_paraphrased_perturbed).
+We conduct experiments on WikiMIA and MIMIR:
+- WikiMIA original: [swj0419/WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA)
+- WikiMIA paraphrased: [zjysteven/WikiMIA_paraphrased_perturbed](https://huggingface.co/datasets/zjysteven/WikiMIA_paraphrased_perturbed)
 - MIMIR [iamgroot42/mimir](https://huggingface.co/datasets/iamgroot42/mimir)
 
 ## 🤖 Models
