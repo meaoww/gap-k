@@ -49,7 +49,7 @@ We provide shell scripts for running all experiments:
 - `mimir.sh`  
   Evaluates Loss, Zlib, Min-K%, Min-K%++, Gap-K% on MIMIR.
 
-Results are saved to:
+After running the scripts, results will be saved to:
 ```text
 results/
 ```
