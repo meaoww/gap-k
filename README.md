@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 This repository provides the official implementation of **Gap-K%**, a novel method for pretraining data detection.
-It includes experimental code for **Gap-K%** along with several baseline methods on the **WikiMIA** and **MIMIR** datasets.
+It includes experimental code for Gap-K% along with several baseline methods on the WikiMIA and MIMIR datasets.
 For the Neighbor baseline experiments on the MIMIR benchmark, we use the implementation provided here:  
 👉 https://github.com/zjysteven/mimir
 
