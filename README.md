@@ -38,7 +38,7 @@ We conduct WikiMIA experiments on a diverse set of large language models:
 For MIMIR experiments, we use Pythia [160M](https://huggingface.co/EleutherAI/pythia-160m), [1.4B](https://huggingface.co/EleutherAI/pythia-1.4b), [2.8B](https://huggingface.co/EleutherAI/pythia-2.8b), [6.9B](https://huggingface.co/EleutherAI/pythia-6.9b), and [12B](https://huggingface.co/EleutherAI/pythia-12b).
 
 ## 🚀 Running
-We provide shell scripts for running all experiments:
+We provide SLURM job scripts to run all experiments:
 - `wikimia.sh`  
   Evaluates Loss, Zlib, Min-K%, Min-K%++, Gap-K% on WikiMIA.
 
