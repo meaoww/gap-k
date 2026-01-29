@@ -1,6 +1,6 @@
 # Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data
 [![arXiv](https://img.shields.io/badge/arXiv-2601.19936-b31b1b.svg)](https://arxiv.org/abs/2601.19936)
-[![Website | Project Page](https://img.shields.io/badge/Website-Project%20Page-F1C40F.svg)](https://meaoww.github.io/gap-k-project-page/)
+[![Website | Project Page](https://img.shields.io/badge/Website-Project%20Page-E0B400.svg)](https://meaoww.github.io/gap-k-project-page/)
 
 ## 🔍 Overview
 This repository provides the official implementation of **Gap-K%**, a novel method for pretraining data detection.
