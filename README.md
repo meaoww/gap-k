@@ -1,7 +1,4 @@
 # Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data
-<p align="center">
-  <b>ACL 2026</b>
-</p>
 [![arXiv](https://img.shields.io/badge/arXiv-2601.19936-b31b1b.svg?style=flat)](https://arxiv.org/abs/2601.19936)
 [![Website | Project Page](https://img.shields.io/badge/Website-Project%20Page-E0B400.svg?style=flat)](https://meaoww.github.io/gap-k-project-page/)
 
