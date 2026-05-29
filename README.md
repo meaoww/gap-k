@@ -3,7 +3,7 @@
 [![Website | Project Page](https://img.shields.io/badge/Website-Project%20Page-E0B400.svg?style=flat)](https://meaoww.github.io/gap-k-project-page/)
 
 ## 🔍 Overview
-This repository provides the official implementation of *Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data*, accepted to the ACL 2026 Main Conference.
+This repository provides the official implementation of *Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data (ACL'26)*.
 It includes experimental code for Gap-K% along with several baseline methods on the WikiMIA and MIMIR datasets.
 For the Neighbor baseline experiments on the MIMIR benchmark, we use the implementation provided here: https://github.com/zjysteven/mimir
 
